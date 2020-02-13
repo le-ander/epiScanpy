@@ -15,7 +15,7 @@ __email__ = ', '.join([
 ])
 __version__ = get_versions()['version']
 
-check_versions()
+#check_versions()
 annotate_doc_types(sys.modules[__name__], 'episcanpy')
 del get_versions, sys, check_versions, annotate_doc_types
 
